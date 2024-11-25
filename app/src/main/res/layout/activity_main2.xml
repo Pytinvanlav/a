@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity2">
+
+    <ImageButton
+        android:id="@+id/foto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/foto"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="300dp"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Разработчик может отвечать за клиентскую или серверную часть продукта, от этого зависит его специальность:
+
+●	Фронтенд-разработчик занимается клиентской частью ― всем, что пользователь видит на экране, когда заходит на сайт или в приложение. Например, может разработать функцию корзины в интернет-магазине. Он работает с языками HTML, CSS и JavaScript и отвечает за внешний вид и поведение веб-страницы.
+●	Бэкенд-разработчик занимается серверной частью, которая используется для обработки и хранения данных. Он работает с базами данных, серверами и языками программирования, такими как Python, Ruby, PHP или Java, чтобы создавать и поддерживать серверные приложения и API, которые взаимодействуют с фронтендом. Он отвечает за обработку запросов от фронтенда, хранение данных, обновление базы данных и взаимодействие с другими системами. Например, может настроить авторизацию, обработку платежей, отправку уведомлений пользователям. "
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Назад"
+        android:onClick="Click"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
